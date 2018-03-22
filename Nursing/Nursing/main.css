@@ -5,6 +5,9 @@
   -o-background-size: cover;
   background-size: cover;
 }*/
+* {
+    box-sizing:border-box;
+}
 .card-header{
     background-color: rgba(163, 35, 60, 0.81);
     text-align: center;
@@ -22,13 +25,17 @@ a:link{
     color: white;
 }
 .login{
-    padding: 150px 50px 50px 50px;
-    margin: 100px auto;
-    height: 600px;
+    margin:auto;
+    max-width:400px;
 }
-* {
-    margin: 0;
+.logo{
+    margin:auto;
+    max-width:300px;
 }
+.logo img{
+    max-width: 300px;
+}
+
 html, body {
     height: 100%;
 }

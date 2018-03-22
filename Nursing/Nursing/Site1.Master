@@ -52,7 +52,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course                        </a>
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownC">
                             <a class="dropdown-item" href="#">Add Course</a>
                             <a class="dropdown-item" href="#">Archive Course</a>
@@ -69,7 +69,7 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0 text-light">
                     <strong class="small mr-3 float-right">Super Admin: Dr. Dara M. Whalen</strong>
-                    <button class="btn btn-sm btn-secondary my-2 my-sm-0 float-right">Log Out</button>
+                    <a href="Login.aspx" class="btn btn-sm btn-secondary my-2 my-sm-0 float-right">Log Out</a>
                 </form>
             </div>
         </nav>
