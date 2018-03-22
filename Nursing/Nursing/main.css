@@ -1,0 +1,42 @@
+﻿/*body { 
+  background: url(https://branding.temple.edu/sites/branding/files/images/blocks/Red_DiamondPattern.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+.card-header{
+    background-color: #9D1A33;
+    text-align: center;
+    height: 45px;
+    color: white;
+}
+footer p, footer a {
+    color: white;
+}
+navbar, li, ul, a{
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    padding: 150px 50px 50px 50px;
+    margin: 100px auto;
+    height: 600px;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -105px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+    height: 105px; /* .push must be the same height as .footer */
+}
