@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9D1A33;">
             <a href="#" class="navbar-brand d-flex align-items-center">
                 <img src="https://vignette.wikia.nocookie.net/althistory/images/1/17/Temple_T_logo.svg/revision/latest?cb=20151016075626" width="40" height="40" />
-                <strong class="small text-light">School of Nursing
+                <strong class="small text-light">College of Public Health
                             <br />
                     Temple University</strong>
             </a>
@@ -93,7 +93,7 @@
             <p class="float-right mr-5">
                 <a href="#">Maps and Directions</a>
             </p>
-            <strong class="text-light">School of Nursing</strong>
+            <strong class="text-light">College of Public Health</strong>
             <br />
             <strong class="text-light small">Temple University</strong>
         </div>
