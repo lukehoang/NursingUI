@@ -9,7 +9,7 @@
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
-                <h5 class="m-0 card-title">Aleart</h5>
+                <h5 class="m-0 card-title">Alert</h5>
             </div>
             <div class="card-body">
                 <p>David: <span class="text-danger">Should be taking 8004</span></p>
