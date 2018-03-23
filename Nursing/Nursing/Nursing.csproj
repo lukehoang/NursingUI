@@ -66,6 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Course_add.aspx" />
+    <Content Include="Course_archive.aspx" />
+    <Content Include="Course_dashboard.aspx" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="main.css" />
     <Content Include="packages.config" />
@@ -78,12 +82,46 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="StudentDashboard.aspx" />
+    <Content Include="Student_Dashboard.aspx" />
     <Content Include="Student_Add.aspx" />
     <Content Include="Student_archive.aspx" />
+    <Content Include="Term_add.aspx" />
+    <Content Include="Term_archive.aspx" />
+    <Content Include="Term_Dashboard.aspx" />
+    <Content Include="User_add.aspx" />
+    <Content Include="User_archive.aspx" />
+    <Content Include="User_Dashboard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course_add.aspx.cs">
+      <DependentUpon>Course_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course_add.aspx.designer.cs">
+      <DependentUpon>Course_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course_archive.aspx.cs">
+      <DependentUpon>Course_archive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course_archive.aspx.designer.cs">
+      <DependentUpon>Course_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course_dashboard.aspx.cs">
+      <DependentUpon>Course_dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course_dashboard.aspx.designer.cs">
+      <DependentUpon>Course_dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,12 +137,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="StudentDashboard.aspx.cs">
-      <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    <Compile Include="Student_Dashboard.aspx.cs">
+      <DependentUpon>Student_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentDashboard.aspx.designer.cs">
-      <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    <Compile Include="Student_Dashboard.aspx.designer.cs">
+      <DependentUpon>Student_Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Student_Add.aspx.cs">
       <DependentUpon>Student_Add.aspx</DependentUpon>
@@ -119,6 +157,48 @@
     </Compile>
     <Compile Include="Student_archive.aspx.designer.cs">
       <DependentUpon>Student_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Term_add.aspx.cs">
+      <DependentUpon>Term_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Term_add.aspx.designer.cs">
+      <DependentUpon>Term_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Term_archive.aspx.cs">
+      <DependentUpon>Term_archive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Term_archive.aspx.designer.cs">
+      <DependentUpon>Term_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Term_Dashboard.aspx.cs">
+      <DependentUpon>Term_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Term_Dashboard.aspx.designer.cs">
+      <DependentUpon>Term_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_add.aspx.cs">
+      <DependentUpon>User_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_add.aspx.designer.cs">
+      <DependentUpon>User_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_archive.aspx.cs">
+      <DependentUpon>User_archive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_archive.aspx.designer.cs">
+      <DependentUpon>User_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Dashboard.aspx.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Dashboard.aspx.designer.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

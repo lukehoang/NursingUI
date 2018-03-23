@@ -9,7 +9,7 @@
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
-                <h5 class="m-0 card-title">ARCHIVE STUDENT</h5>
+                <h5 class="m-0 card-title">Archive Student</h5>
             </div>
             <div class="card-body mb-5 pb-5">
                 <div class=" col-md-6 m-auto  form-row">

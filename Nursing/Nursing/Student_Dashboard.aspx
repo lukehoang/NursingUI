@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="StudentDashboard.aspx.cs" Inherits="Nursing.StudentDahboard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Student_Dashboard.aspx.cs" Inherits="Nursing.StudentDahboard" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -9,7 +9,7 @@
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
-                <h5 class="m-0 card-title">ALERT</h5>
+                <h5 class="m-0 card-title">Aleart</h5>
             </div>
             <div class="card-body">
                 <p>David: <span class="text-danger">Should be taking 8004</span></p>
@@ -23,7 +23,7 @@
 
             <%-- HEADING --%>
             <div class="card-header">
-                <h5 class="m-0 card-title">STUDENTS</h5>
+                <h5 class="m-0 card-title">Students</h5>
             </div>
 
             <%-- TABLE --%>
