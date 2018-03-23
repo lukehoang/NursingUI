@@ -1,126 +1,32 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="StudentDashboard.aspx.cs" Inherits="Nursing.StudentDahboard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Student_archive.aspx.cs" Inherits="Nursing.Student_archive" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- CONTENT --%>
-    <div class=" col-md-10 mx-auto mt-5">
+    <div class=" col-md-6 mx-auto mt-5 mb-5 pb-5">
         <h1 class="text-center mb-3">STUDENT</h1>
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
-                <h5 class="m-0 card-title">ALERT</h5>
+                <h5 class="m-0 card-title">ARCHIVE STUDENT</h5>
             </div>
-            <div class="card-body">
-                <p>David: <span class="text-danger">Should be taking 8004</span></p>
-                <p>Jim: <span class="text-danger">needs 9287</span></p>
-            </div>
-        </div>
-
-        <br class="mt-5" />
-        <%-- MAIN WINDOW --%>
-        <div class="card">
-
-            <%-- HEADING --%>
-            <div class="card-header">
-                <h5 class="m-0 card-title">STUDENTS</h5>
-            </div>
-
-            <%-- TABLE --%>
-            <div class="card-body">
-                <table class="table table-sm">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>TUid</th>
-                            <th>Track</th>
-                            <th>Course Taking</th>
-                            <th>Graduation</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>David</td>
-                            <td>827648918</td>
-                            <td>FIAL</td>
-                            <td>8004, 5101, 8473</td>
-                            <td>SP2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="card-body mb-5 pb-5">
+                <div class=" col-md-6 m-auto  form-row">
+                    <div class="col-md-2">
+                        <label>TUid</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="TUid">
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#" class="btn btn-success" data-toggle="modal" data-target=".bd-student-modal-lg">Search</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <%-- PAGINATION --%>
-        <nav aria-label="Page navigation example">
-            <ul class="pagination float-right mt-4">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-        </nav>
-
-        <%-- POP UP - WINDOWS --%>
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <%-- POP UP WINDOW --%>
+        <div class="modal fade bd-student-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="card">
@@ -161,7 +67,7 @@
                                     <span>Enrolled</span>
                                     <br />
                                     <br />
-                                    <a href="#" class="btn btn-sm btn-info">UPDATE</a>
+                                    <a class="btn btn-danger" data-toggle="modal" data-target="#archiveModal">ARCHIVE</a>
                                 </div>
                                 <%-- NOTES --%>
                                 <div class="col-md-6 ">
@@ -231,5 +137,27 @@
                 </div>
             </div>
         </div>
+
+        <%-- DIALOG YES NO --%>
+        <div class="modal fade" id="archiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Archive student</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Do you want to archive the student?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <a href="Student_archive.aspx" type="button" class="btn btn-danger">Archive</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="push"></div>
 </asp:Content>

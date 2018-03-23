@@ -79,6 +79,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="StudentDashboard.aspx" />
+    <Content Include="Student_Add.aspx" />
+    <Content Include="Student_archive.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +105,20 @@
     </Compile>
     <Compile Include="StudentDashboard.aspx.designer.cs">
       <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Add.aspx.cs">
+      <DependentUpon>Student_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_Add.aspx.designer.cs">
+      <DependentUpon>Student_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Student_archive.aspx.cs">
+      <DependentUpon>Student_archive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_archive.aspx.designer.cs">
+      <DependentUpon>Student_archive.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

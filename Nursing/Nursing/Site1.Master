@@ -30,13 +30,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light" href="StudentDashboard.aspx">Dashboard <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="StudentDashboard.aspx">Dashboard <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Term
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Term
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Add Term</a>
@@ -44,22 +44,23 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownS">
-                            <a class="dropdown-item" href="#">Add Student</a>
-                            <a class="dropdown-item" href="#">Archive Student</a>
+                            <a class="dropdown-item" href="studentdashboard.aspx">Students Dashboard</a>
+                            <a class="dropdown-item" href="student_add.aspx">Add Student</a>
+                            <a class="dropdown-item" href="student_archive.aspx">Archive Student</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownC">
                             <a class="dropdown-item" href="#">Add Course</a>
                             <a class="dropdown-item" href="#">Archive Course</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownU" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownU" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownU">
                             <a class="dropdown-item" href="#">Add User</a>
@@ -67,14 +68,25 @@
                         </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0 text-light">
-                    <strong class="small mr-3 float-right">Super Admin: Dr. Dara M. Whalen</strong>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="float-right m-3 text-light" href="#" data-toggle="modal" data-target=".bd-help-modal-md"><i class="ion-help-circled"></i></a>
+                    <strong class="small mr-3 float-right text-light">Super Admin: Dr. Dara M. Whalen</strong>
                     <a href="Login.aspx" class="btn btn-sm btn-secondary my-2 my-sm-0 float-right">Log Out</a>
                 </form>
+                <div class="modal fade bd-help-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content p-5">
+                            <h3 class="text-center">Instruction</h3>
+                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                 Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <div class="wrapper">
+    <div class="content">
         <form class="form-inline my-2 my-lg-0 float-right ">
             <input class="form-control mr-sm-2 mt-2 mr-3" type="search" placeholder="Search" aria-label="Search">
         </form>
