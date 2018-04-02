@@ -122,7 +122,7 @@
                     <div class=" col-md-10 mx-auto mt-5">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="m-0 card-title">Course Information</h5>
+                                <h5 class="m-0 card-title">Course Information</h5> <%--test if commit works--%>
                             </div>
                             <div class="card-body">
                                 <h5>NURS 5552</h5>
