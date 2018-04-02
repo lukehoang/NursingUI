@@ -51,8 +51,8 @@
                     <h5 class="m-0 card-title">Term Highlight</h5>
                 </div>
                 <div class="card-body">
-                    <p>SPRING 2018: <span class="text-danger">5501 IS REMOVED</span></p>
-                    <p>SPRING 2018: 5502 IS ADDED</p>
+                    <p>SPRING 2018: <span class="text-danger">NURS 5401 Advanced Physiology and Pathophysiology IS REMOVED</span></p>
+                    <p>SPRING 2018: EPBI 5002 Intro to Biostatistics IS ADDED</p>
                 </div>
             </div>
 
@@ -77,21 +77,21 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span class="bg-warning">5501: 5</span></td>
+                            <td><span class="bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td><span class="bg-warning">5501: 2</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="bg-warning">5502: 9</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>5502: 11</td>
+                            <td><span class="bg-warning">NURS 8101 DNP Project Development 1: 2</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
                         <tr>
-                            <td>3340: 12</td>
+                            <td><span class="bg-warning">NURS 8205 Organization & System Leadership: 9</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>3340: 15</td>
+                            <td>NURS 9477 Primary Care of Adults II practicum[208h]: 11</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>NURS 9777 Primary Care of Children & Youth Theory: 12</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td>NURS 9787 Primary Care of Children & Youth Praticum: 15</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
                     </tbody>
@@ -127,8 +127,8 @@
                             <div class="card-body">
                                 <h5>NURS 5501</h5>
                                 <h6>Section: 001</h6>
-                                <h6>Theorie for Addranced Practice Nursing of Famillies and Individuals</h6>
-                                <h6>Credit hours: 3</h6>
+                                <h6>Family Theory & Assessment in Clinical Pratice</h6>
+                                <h6>Credit hours: 4</h6>
                                 <h6>Instructor: Dr. A</h6>
                             </div>
                             <div class="card-body">
@@ -196,7 +196,7 @@
                                                                 <td>827648918</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>David</td>
+                                                                <td>Caitlin</td>
                                                                 <td>827648918</td>
                                                             </tr>
                                                             <tr>
