@@ -16,7 +16,14 @@
                         <tr>
                             <td>Term</td>
                             <td>
-                                <input type="text" class="form-control" value="" />
+                                 <div class="dropdown">
+                                    <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Spring 2018</a>
+                                        <a class="dropdown-item" href="#">Summer 2018</a>
+                                        <a class="dropdown-item" href="#">Fall 2018</a>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                         <tr>
@@ -33,7 +40,7 @@
 
                             </td>
                         </tr>
-                        <tr>
+                        <%--<tr>
                             <td>Add course</td>
                             <td>
                                 <div class="dropdown">
@@ -44,18 +51,18 @@
                                         <a class="dropdown-item" href="#">5503</a>
                                     </div>
                                 </div>
-                            </td>
+                            </td>--%>
                     </tbody>
                 </table>
                 <div class="form-row">
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="Term_Dashboard.aspx" class="btn btn-info" id="Add">Add</a>
+                            <a href="Term_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="Term_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
+                            <a href="Term_Dashboard.aspx" class="btn btn-info" id="Add">Add</a>
                         </div>
                     </div>
                 </div>
