@@ -4,9 +4,31 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- CONTENT --%>
-    <div class=" col-md-10 mx-auto mt-5">
-        <h1 class="text-center mb-3">COURSE</h1>
+       <h1 class="text-center mb-3">COURSE</h1>
         <%-- HIGHLIGHT WINDOW --%>
+       <div class="row">
+        <div class=" col-md-3 float-left mt-5">
+            <%-- DASHBOARD WINDOW --%>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="m-0 card-title">Dashboard</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="navbar-nav">
+                        <li><a href="Term_add.aspx">Add Term</a></li>
+                        <li><a href="term_archive.aspx">Archive Term</a></li>
+                        <li><a href="course_add.aspx">Add Course</a></li>
+                        <li><a href="course_archive.aspx">Archive Course</a></li>
+                        <li><a href="Student_Add.aspx">Add Student</a></li>
+                        <li><a href="Student_archive.aspx">Archive Student</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+     <div class=" col-md-9 mx-auto mt-5">
+    
         <div class="card">
             <div class="card-header">
                 <h5 class="m-0 card-title">Current Course Highlight</h5>
@@ -15,18 +37,18 @@
                 <div class="row">
                     <div class="col-md-4">
                         <p class="text-center font-weight-bold">Urgent</p>
-                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="text-light"><p class="text-center text-dark bg-warning">5501: 2</p></a>
-                        <p class="text-center bg-warning">5502: 9</p>
+                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="text-light"><p class="text-center text-dark bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7 Registered</p></a>
+                        <p class="text-center bg-warning">NURS 8205 Organization & System Leadership: 9 Registered</p>
                     </div>
                     <div class="col-md-4">
                         <p class="text-center font-weight-bold">Course Added</p>
-                        <p class="text-center">5501</p>
-                        <p class="text-center">5502</p>
+                        <p class="text-center">NURS 9477 Primary Care of Adults II theory</p>
+                        <p class="text-center">NURS 8101 DNP Project Development 1 </p>
                     </div>
                     <div class="col-md-4">
                         <p class="text-center font-weight-bold">Course Removed</p>
-                        <p class="text-center">9888</p>
-                        <p class="text-center">8804</p>
+                        <p class="text-center">NURS 5501 Evidence-Based Pratice for Advanced Pratice</p>
+                        <p class="text-center">NURS 5002 Intro to Biostatistics</p>
                     </div>
                 </div>
             </div>
@@ -55,8 +77,8 @@
                             <td>5101</td>
                             <td>EDUC</td>
                             <td>Active</td>
-                            <td>SP2016</td>
-                            <td>SP2018</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
 
@@ -64,8 +86,8 @@
                             <td>5101</td>
                             <td>EDUC</td>
                             <td>Active</td>
-                            <td>SP2016</td>
-                            <td>SP2018</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
 
@@ -73,8 +95,8 @@
                             <td>5101</td>
                             <td>EDUC</td>
                             <td>Active</td>
-                            <td>SP2016</td>
-                            <td>SP2018</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
 
@@ -82,8 +104,8 @@
                             <td>5101</td>
                             <td>EDUC</td>
                             <td>Active</td>
-                            <td>SP2016</td>
-                            <td>SP2018</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
 
@@ -91,8 +113,8 @@
                             <td>5101</td>
                             <td>EDUC</td>
                             <td>Active</td>
-                            <td>SP2016</td>
-                            <td>SP2018</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
                        
@@ -217,7 +239,7 @@
             </div>
         </div>
     </div>
-
+           </div>
 
 
 

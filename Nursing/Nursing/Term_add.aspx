@@ -8,7 +8,7 @@
           
         <%-- CONTENT --%>
   <div class="row" >
-    <div class=" col-md-2 float-left mt-5">
+    <div class=" col-md-3 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
         <div class="card">
             <div class="card-header">
