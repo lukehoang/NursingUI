@@ -76,22 +76,22 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><span class="bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7</span></td>
+                        <tr> <%--this is what showing in the course highlight--%>
+                            <td><span class="bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7 Registered</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td><span class="bg-warning">NURS 8101 DNP Project Development 1: 2</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="bg-warning">NURS 8205 Organization & System Leadership: 9</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>NURS 9477 Primary Care of Adults II practicum[208h]: 11</td>
+                            <td><span class="bg-warning">NURS 8101 DNP Project Development 1: 2 Registered</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
                         <tr>
-                            <td>NURS 9777 Primary Care of Children & Youth Theory: 12</td>
+                            <td><span class="bg-warning">NURS 8205 Organization & System Leadership: 9 Registered</span></td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>NURS 9787 Primary Care of Children & Youth Praticum: 15</td>
+                            <td>NURS 9477 Primary Care of Adults II practicum[208h]: 11 Registered</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>NURS 9777 Primary Care of Children & Youth Theory: 12 Registered</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td>NURS 9787 Primary Care of Children & Youth Praticum: 15 Registered</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
                         </tr>
                     </tbody>
@@ -108,8 +108,8 @@
                 <h5 class="m-0 card-title">Student Highlight</h5>
             </div>
             <div class="card-body">
-                <p>David: <span class="text-danger">Should be taking 8004</span></p>
-                <p>Jim: <span class="text-danger">needs 9287</span></p>
+                <p>David: <span class="text-danger">Should be Taking NURS 8205 Organizational & Systems Leadership</span></p>
+                <p>Jim: <span class="text-danger">Should be Taking NURS 5101 Evidence - Based Practice for Advanced Practice </span></p>
             </div>
         </div>
         <%--space between table--%>
@@ -125,9 +125,9 @@
                                 <h5 class="m-0 card-title">Course Information</h5>
                             </div>
                             <div class="card-body">
-                                <h5>NURS 5501</h5>
+                                <h5>NURS 5552</h5>
                                 <h6>Section: 001</h6>
-                                <h6>Family Theory & Assessment in Clinical Pratice</h6>
+                                <h6> Health Assessment & Clinical Diagnosis</h6>
                                 <h6>Credit hours: 4</h6>
                                 <h6>Instructor: Dr. A</h6>
                             </div>
@@ -138,7 +138,7 @@
                                             <tr>
                                                 <th scope="col">Student Currently Taking</th>
                                                 <th scope="col"></th>
-                                                <th scope="col">Student needs: F2018</th>
+                                                <th scope="col">Student needs: FALL 2018</th>
                                             </tr>
                                         </thead>
                                         <tbody>
