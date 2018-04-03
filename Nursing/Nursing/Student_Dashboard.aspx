@@ -155,7 +155,7 @@
                 <div class="modal-content">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="text-center d-inline">STUDENT'S INFORMATIONS</h4>
+                            <h4 class="text-center d-inline">STUDENT'S PROFILE</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <%-- CONTACT INFORMATIONS --%>
@@ -208,7 +208,7 @@
                                     <span>Dr. A</span>
                                     <p>Failed 5501</p>
                                     <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                                    <a href="#" class="float-right btn btn-info">Add</a>
+                                    <a href="#" class="float-right btn btn-info mt-1">Add</a>
                                 </div>
                                 <%-- TABLE --%>
                                 <div class="col-md-12 mt-4">

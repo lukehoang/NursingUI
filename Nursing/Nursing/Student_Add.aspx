@@ -106,7 +106,7 @@
                             <td>Expected Graduation</td>
                             <td>
                                 <div class="dropdown">
-                                    <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Term</button>
+                                    <button class="form-control dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Term</button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">Fall 2018</a>
                                         <a class="dropdown-item" href="#">Spring 2019</a>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="card-body">
                             <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                           <a href="#" class="float-right btn btn-info">Add</a>
+                           <a href="#" class="float-right btn btn-info mt-1">Add</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="col-md-3 m-auto">
+                        <div class="col-md-3 m-auto mt-1">
                             <a href="student_dashboard.aspx" class="btn btn-info" id="Add">Add</a>
                         </div>
                     </div>
