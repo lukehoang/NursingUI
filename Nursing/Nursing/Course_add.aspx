@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="course_Dashboard.aspx" class="btn btn-info" id="Add">Add</a>
+                            <a href="course_Dashboard.aspx" class="btn btn-info" id="Add">Add</a> <%--test commit--%>
                         </div>
                     </div>
                 </div>
