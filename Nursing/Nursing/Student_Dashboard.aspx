@@ -28,10 +28,11 @@
                 <h5 class="m-0 card-title">Alert</h5>
             </div>
             <div class="card-body">
-                <p>David: <span class="text-danger">Should be taking 8004</span></p>
-                <p>Jim: <span class="text-danger">needs 9287</span></p>
+                <p>David: <span class="text-danger">Should be Taking NURS 8205 Organizational & Systems Leadership</span></p>
+                <p>Jim: <span class="text-danger">Should be Taking NURS 5101 Evidence - Based Practice for Advanced Practice </span></p>
             </div>
         </div>
+
 
         <br class="mt-5" />
         <%-- MAIN WINDOW --%>
@@ -206,45 +207,45 @@
                                     <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
                                     <a href="#" class="float-right btn btn-info">Add</a>
                                 </div>
-                            <%-- TABLE --%>
-                            <div class="col-md-12 mt-4">
-                                <hr />
-                                <div class="form-row">
-                                    <div class="card col-md-3 ">
-                                        <div class="card-header">
-                                            <h6>Completed: </h6>
+                                <%-- TABLE --%>
+                                <div class="col-md-12 mt-4">
+                                    <hr />
+                                    <div class="form-row">
+                                        <div class="card col-md-3 ">
+                                            <div class="card-header">
+                                                <h6>Completed: </h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>8004, 5101,8473</span>
+                                            </div>
                                         </div>
-                                        <div class="card-body">
-                                            <span>8004, 5101,8473</span>
+                                        <div class="card col-md-3">
+                                            <div class="bg-success card-header">
+                                                <h6>Incompleted: </h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>5557, 5901, 5902, 5903</span>
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-3">
+                                            <div class="card-header bg-warning">
+                                                <h6>Currently taking: </h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>5501, 5502, 5552</span>
+                                            </div>
+                                        </div>
+                                        <div class="card col-md-3">
+                                            <div class="card-header bg-secondary">
+                                                <h6>Needed: </h6>
+                                            </div>
+                                            <div class="card-body">
+                                                <span>9287, 9887, 5558</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card col-md-3">
-                                        <div class="bg-success card-header">
-                                            <h6>Incompleted: </h6>
-                                        </div>
-                                        <div class="card-body">
-                                            <span>5557, 5901, 5902, 5903</span>
-                                        </div>
-                                    </div>
-                                    <div class="card col-md-3">
-                                        <div class="card-header bg-warning">
-                                            <h6>Currently taking: </h6>
-                                        </div>
-                                        <div class="card-body">
-                                            <span>5501, 5502, 5552</span>
-                                        </div>
-                                    </div>
-                                    <div class="card col-md-3">
-                                        <div class="card-header bg-secondary">
-                                            <h6>Needed: </h6>
-                                        </div>
-                                        <div class="card-body">
-                                            <span>9287, 9887, 5558</span>
-                                        </div>
-                                    </div>
+                                    <a href="#"><i class="icon ion-ios-printer-outline float-right"></i></a>
                                 </div>
-                                <a href="#"><i class="icon ion-ios-printer-outline float-right"></i></a>
-                            </div>
                             </div>
                         </div>
                     </div>
