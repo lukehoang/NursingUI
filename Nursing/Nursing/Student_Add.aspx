@@ -84,7 +84,7 @@
                             <td>
                                 <input type="text" class="form-control" />
                             </td>
-                            <td>Expected Draduation</td>
+                            <td>Expected Graduation</td>
                             <td>
                                 <div class="dropdown">
                                     <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Term</button>

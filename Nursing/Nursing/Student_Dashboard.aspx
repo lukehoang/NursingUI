@@ -32,8 +32,8 @@
                     <h5 class="m-0 card-title">Alert</h5>
                 </div>
                 <div class="card-body">
-                    <p>David: <span class="text-danger">Should be taking 8004</span></p>
-                    <p>Jim: <span class="text-danger">needs 9287</span></p>
+                    <p>David: <span class="text-danger">Should be Taking NURS 8205 Organizational & Systems Leadership</span></p>
+                <p>Jim: <span class="text-danger">Should be Taking NURS 5101 Evidence - Based Practice for Advanced Practice </span></p>
                 </div>
             </div>
 
