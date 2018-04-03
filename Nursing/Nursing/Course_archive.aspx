@@ -3,8 +3,23 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class=" col-md-6 mx-auto mt-5 mb-5 pb-5">
-        <h1 class="text-center mb-3">COURSE</h1>
+    <div class=" col-md-2 float-left mt-5">
+        <%-- DASHBOARD WINDOW --%>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="m-0 card-title">COURSE</h5>
+            </div>
+            <div class="card-body">
+                <ul class="navbar-nav">
+                    <li><a href="course_dashboard.aspx">Course Dashboard</a></li>
+                    <li><a href="course_add.aspx">Add Course</a></li>
+                    <li><a href="course_archive.aspx">Archive Course</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class=" col-md-10 float-right mx-auto mt-5">
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
@@ -43,7 +58,7 @@
                                 <h6>Instructor: Dr. A</h6>
                                 <a class="btn btn-danger btn-sm" data-toggle="modal" data-target="#archiveModal">ARCHIVE</a>
                             </div>
-                           
+
                             <div class="card-body">
                                 <div class="col-md-12 mb-2">
                                     <table class="table table-active">
@@ -152,5 +167,5 @@
             </div>
         </div>
     </div>
-    <div class="push mb-2"></div>
+    <div class="push"></div><div class="push mt-5"></div>  <div class="push mt-5"></div>
 </asp:Content>

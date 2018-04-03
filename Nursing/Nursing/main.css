@@ -44,7 +44,7 @@ body{
     flex: 0 auto;
 }
 footer{
-    height:100px;
+    height:130px;
    flex-shrink: 0;
 }
 .dropdown-menu .dropdown-item:hover {
@@ -53,4 +53,15 @@ footer{
 }
 .ion-help-circled {
     font-size: 25px;
+}
+.card-body .navbar-nav a{
+    display:block;
+    color: #777;
+    font-weight: 600;
+}
+.card-body .navbar-nav a:hover{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color:firebrick;
 }

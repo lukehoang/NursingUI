@@ -4,31 +4,27 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- CONTENT --%>
-       <h1 class="text-center mb-3">COURSE</h1>
-        <%-- HIGHLIGHT WINDOW --%>
-       <div class="row">
-        <div class=" col-md-3 float-left mt-5">
-            <%-- DASHBOARD WINDOW --%>
-            <div class="card">
-                <div class="card-header">
-                    <h5 class="m-0 card-title">Dashboard</h5>
-                </div>
-                <div class="card-body">
-                    <ul class="navbar-nav">
-                        <li><a href="Term_add.aspx">Add Term</a></li>
-                        <li><a href="term_archive.aspx">Archive Term</a></li>
-                        <li><a href="course_add.aspx">Add Course</a></li>
-                        <li><a href="course_archive.aspx">Archive Course</a></li>
-                        <li><a href="Student_Add.aspx">Add Student</a></li>
-                        <li><a href="Student_archive.aspx">Archive Student</a></li>
+    <%-- HIGHLIGHT WINDOW --%>
 
-                    </ul>
-                </div>
+    <div class=" col-md-2 float-left mt-5">
+        <%-- DASHBOARD WINDOW --%>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="m-0 card-title">COURSE</h5>
+            </div>
+            <div class="card-body">
+                <ul class="navbar-nav">
+                    <li><a href="course_dashboard.aspx">Course Dashboard</a></li>
+                    <li><a href="course_add.aspx">Add Course</a></li>
+                    <li><a href="course_archive.aspx">Archive Course</a></li>
+
+                </ul>
             </div>
         </div>
+    </div>
 
-     <div class=" col-md-9 mx-auto mt-5">
-    
+    <div class=" col-md-10 float-right mx-auto mt-5">
+
         <div class="card">
             <div class="card-header">
                 <h5 class="m-0 card-title">Current Course Highlight</h5>
@@ -37,7 +33,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <p class="text-center font-weight-bold">Urgent</p>
-                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="text-light"><p class="text-center text-dark bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7 Registered</p></a>
+                        <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="text-light">
+                            <p class="text-center text-dark bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7 Registered</p>
+                        </a>
                         <p class="text-center bg-warning">NURS 8205 Organization & System Leadership: 9 Registered</p>
                     </div>
                     <div class="col-md-4">
@@ -62,7 +60,7 @@
             </div>
 
             <div class="card-body">
-                <table class="center table table-sm">
+                <table class="center table table-sm sortable">
                     <thead>
                         <tr>
                             <th scope="col">CRNs</th>
@@ -79,45 +77,45 @@
                             <td>Active</td>
                             <td>SPRING 2016</td>
                             <td>SPRING 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
 
-                         <tr>
-                            <td>5101</td>
+                        <tr>
+                            <td>5022</td>
+                            <td>EDUC</td>
+                            <td>Inactive</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>8373</td>
                             <td>EDUC</td>
                             <td>Active</td>
                             <td>SPRING 2016</td>
                             <td>SPRING 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
 
-                         <tr>
-                            <td>5101</td>
+                        <tr>
+                            <td>2748</td>
+                            <td>EDUC</td>
+                            <td>Inactive</td>
+                            <td>SPRING 2016</td>
+                            <td>SPRING 2018</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>9383</td>
                             <td>EDUC</td>
                             <td>Active</td>
                             <td>SPRING 2016</td>
                             <td>SPRING 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
 
-                         <tr>
-                            <td>5101</td>
-                            <td>EDUC</td>
-                            <td>Active</td>
-                            <td>SPRING 2016</td>
-                            <td>SPRING 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-
-                         <tr>
-                            <td>5101</td>
-                            <td>EDUC</td>
-                            <td>Active</td>
-                            <td>SPRING 2016</td>
-                            <td>SPRING 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                        </tr>
-                       
                     </tbody>
                 </table>
             </div>
@@ -239,11 +237,4 @@
             </div>
         </div>
     </div>
-           </div>
-
-
-
-
-
-
 </asp:Content>

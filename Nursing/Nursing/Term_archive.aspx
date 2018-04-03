@@ -3,32 +3,25 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
     <%-- CONTENT --%>
-        <h1 class="text-center mb-3">TERM</h1>
-      
-     <div class="row" >
     <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
-
         <div class="card">
             <div class="card-header">
-                <h5 class="m-0 card-title">Dashboard</h5>
+                <h5 class="m-0 card-title">TERM</h5>
             </div>
             <div class="card-body">
                 <ul class="navbar-nav">
+                    <li><a href="term_dashboard.aspx">Term Dashboard</a></li>
                     <li><a href="Term_add.aspx">Add Term</a></li>
                     <li><a href="term_archive.aspx">Archive Term</a></li>
-                    <li><a href="course_add.aspx">Add Course</a></li>
-                    <li><a href="course_archive.aspx">Archive Course</a></li>
-                    <li><a href="Student_Add.aspx">Add Student</a></li>
-                    <li><a href="Student_archive.aspx">Archive Student</a></li>
-
                 </ul>
             </div>
         </div>
     </div>
-     <div class=" col-md-6 mx-auto mt-5 mb-5 pb-5">
-   
+    <div class=" col-md-10 mx-auto mt-5 mb-5 pb-5">
+
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
@@ -104,6 +97,6 @@
             </div>
         </div>
     </div>
-    </div>
-    <div class="push"></div>
+    <br />
+    <div class="push mt-5"></div>
 </asp:Content>

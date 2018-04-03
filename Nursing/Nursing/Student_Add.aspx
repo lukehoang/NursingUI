@@ -4,8 +4,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- CONTENT --%>
-    <div class=" col-md-10 mx-auto mt-5">
-        <h1 class="text-center mb-3">STUDENT</h1>
+    <div class=" col-md-2 float-left mt-5">
+        <%-- DASHBOARD WINDOW --%>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="m-0 card-title">STUDENT</h5>
+            </div>
+            <div class="card-body">
+                <ul class="navbar-nav">
+                    <li><a href="student_dashboard.aspx">Student Dashboard</a></li>
+                    <li><a href="Student_Add.aspx">Add Student</a></li>
+                    <li><a href="Student_archive.aspx">Archive Student</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class=" col-md-10 float-right mx-auto mt-5 mb-5">
         <%-- MAIN WINDOW --%>
         <div class="card">
 
@@ -108,7 +123,7 @@
                         </div>
                         <div class="card-body">
                             <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                            <a href="#" class="float-right"><i class="icon ion-plus"></i></a>
+                           <a href="#" class="float-right btn btn-info">Add</a>
                         </div>
                     </div>
                 </div>
@@ -127,5 +142,5 @@
             </div>
         </div>
     </div>
-
+      <div class="push mt-5"></div><div class="push"></div>  <div class="push mt-5"></div>
 </asp:Content>

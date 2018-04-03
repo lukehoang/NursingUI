@@ -4,8 +4,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <%-- CONTENT --%>
-    <div class=" col-md-6 mx-auto mt-5 mb-5 pb-5">
-        <h1 class="text-center mb-3">STUDENT</h1>
+    <div class=" col-md-2 float-left mt-5">
+        <%-- DASHBOARD WINDOW --%>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="m-0 card-title">STUDENT</h5>
+            </div>
+            <div class="card-body">
+                <ul class="navbar-nav">
+                    <li><a href="student_dashboard.aspx">Student Dashboard</a></li>
+                    <li><a href="Student_Add.aspx">Add Student</a></li>
+                    <li><a href="Student_archive.aspx">Archive Student</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class=" col-md-10 float-right mx-auto mt-5">
         <%-- HIGHLIGHT WINDOW --%>
         <div class="card">
             <div class="card-header">
@@ -68,29 +83,6 @@
                                     <br />
                                     <br />
                                     <a class="btn btn-danger" data-toggle="modal" data-target="#archiveModal">ARCHIVE</a>
-                                </div>
-                                <%-- NOTES --%>
-                                <div class="col-md-6 ">
-                                    <div class="card collapse">
-                                        <div class="card-header bg-secondary">
-                                            <h6>NOTES</h6>
-                                        </div>
-                                        <div class="card-body">
-                                            <h6 class="d-inline">Date: </h6>
-                                            <span>12/01/2016</span>
-                                            <h6 class="d-inline">By: </h6>
-                                            <span>Dr. A</span>
-                                            <p>Should be taking 8004, 5101, 8473 in SP2018</p>
-                                            <hr />
-                                            <h6 class="d-inline">Date: </h6>
-                                            <span>04/12/2017</span>
-                                            <h6 class="d-inline">By: </h6>
-                                            <span>Dr. A</span>
-                                            <p>Failed 5501</p>
-                                            <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                                            <a href="#" class="float-right"><i class="icon ion-plus"></i></a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <%-- TABLE --%>
                                 <div class="col-md-12 mt-4">
@@ -159,5 +151,5 @@
             </div>
         </div>
     </div>
-    <div class="push"></div>
+  <div class="push"></div><div class="push mt-5"></div>  <div class="push mt-5"></div>
 </asp:Content>

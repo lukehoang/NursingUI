@@ -4,10 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1 class="text-center mb-3">ADMIN</h1>
-
     <%-- CONTENT --%>
-    <div class=" col-md-3 float-left mt-5">
+    <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
         <div class="card">
             <div class="card-header">
@@ -34,13 +32,13 @@
                 <h5 class="m-0 card-title">Action Required</h5>
             </div>
             <div class="card-body bg-warning ">
-                <p><span class="text-danger text-center">ALERT CLASSES UNDER 10</span></p>
+                <p><span class="text-danger text-center"><strong>ALERT CLASSES UNDER 10</strong></span></p>
             </div>
         </div>
     </div>
 
     <%-- CONTENT --%>
-    <div class=" col-md-9 float-right mt-5">
+    <div class=" col-md-10 float-right mt-5">
 
         <%-- MAIN WINDOW --%>
         <div class="card">
@@ -48,11 +46,11 @@
             <%-- TERM HIGHLIGHT WINDOW --%>
             <div class="card">
                 <div class="card-header">
-                    <h5 class="m-0 card-title">Term Highlight</h5>
+                    <h5 class="m-0 card-title">Spring 2018 Highlight</h5>
                 </div>
                 <div class="card-body">
-                    <p>SPRING 2018: <span class="text-danger">NURS 5401 Advanced Physiology and Pathophysiology IS REMOVED</span></p>
-                    <p>SPRING 2018: EPBI 5002 Intro to Biostatistics IS ADDED</p>
+                    <p><span class="text-danger">NURS 5401 Advanced Physiology and Pathophysiology IS REMOVED</span></p>
+                    <p>EPBI 5002 Intro to Biostatistics IS ADDED</p>
                 </div>
             </div>
 
@@ -69,30 +67,31 @@
                 <table class="table table-sm">
                     <thead>
                         <tr>
-                            <th>SPRING 2018</th>
+                            <th><strong>SPRING 2018</strong></th>
                             <th></th>
-                            <th>FALL 2018</th>
+                            <th><strong>FALL 2018</strong></th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr> <%--this is what showing in the course highlight--%>
-                            <td><span class="bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: 7 Registered</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td><span class="bg-warning">NURS 8101 DNP Project Development 1: 2 Registered</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                        <tr>
+                            <%--this is what showing in the course highlight--%>
+                            <td><span class="bg-warning">NURS 5552 Health Assessment & Clinical Diagnosis: <strong class="text-danger">5</strong> Registered</span></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><span class="bg-warning">NURS 8101 DNP Project Development 1:<strong class="text-danger"> 2</strong> Registered</span></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
                         <tr>
-                            <td><span class="bg-warning">NURS 8205 Organization & System Leadership: 9 Registered</span></td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>NURS 9477 Primary Care of Adults II practicum[208h]: 11 Registered</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td><span class="bg-warning">NURS 8205 Organization & System Leadership: <strong class="text-danger">9</strong> Registered</span></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td>NURS 9477 Primary Care of Adults II practicum[208h]:<strong> 11 </strong>Registered</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
                         <tr>
-                            <td>NURS 9777 Primary Care of Children & Youth Theory: 12 Registered</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
-                            <td>NURS 9787 Primary Care of Children & Youth Praticum: 15 Registered</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="icon ion-compose"></i></a></td>
+                            <td>NURS 9777 Primary Care of Children & Youth Theory:<strong> 12 </strong>Registered</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td>NURS 9787 Primary Care of Children & Youth Praticum:<strong> 15</strong> Registered</td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -122,12 +121,13 @@
                     <div class=" col-md-10 mx-auto mt-5">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="m-0 card-title">Course Information</h5> <%--test if commit works--%>
+                                <h5 class="m-0 card-title">Course Information</h5>
+                                <%--test if commit works--%>
                             </div>
                             <div class="card-body">
                                 <h5>NURS 5552</h5>
                                 <h6>Section: 001</h6>
-                                <h6> Health Assessment & Clinical Diagnosis</h6>
+                                <h6>Health Assessment & Clinical Diagnosis</h6>
                                 <h6>Credit hours: 4</h6>
                                 <h6>Instructor: Dr. A</h6>
                             </div>

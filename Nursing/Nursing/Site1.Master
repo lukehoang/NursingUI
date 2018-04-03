@@ -15,16 +15,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://drvic10k.github.io/bootstrap-sortable/Contents/bootstrap-sortable.css" />
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse">
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9D1A33;">
             <a href="#" class="navbar-brand d-flex align-items-center">
                 <img src="https://vignette.wikia.nocookie.net/althistory/images/1/17/Temple_T_logo.svg/revision/latest?cb=20151016075626" width="40" height="40" />
-                <strong class="small text-light">College of Public Health
+                <strong class="small text-light">Department of Nursing
                             <br />
-                    Temple University</strong>
+                    College of Public Health</strong>
             </a>
 
             <button id="burger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,33 +35,16 @@
             <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="Dashboard.aspx">Dashboard <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="Dashboard.aspx">Dashboard</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Term
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="term_dashboard.aspx">Term Dashboard</a>
-                            <a class="dropdown-item" href="Term_add.aspx">Add Term</a>
-                            <a class="dropdown-item" href="term_archive.aspx">Archive Term</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="term_dashboard.aspx">Term</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownC" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Course</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownC">
-                            <a class="dropdown-item" href="course_dashboard.aspx">Course Dashboard</a>
-                            <a class="dropdown-item" href="course_add.aspx">Add Course</a>
-                            <a class="dropdown-item" href="course_archive.aspx">Archive Course</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="course_dashboard.aspx">Course</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownS">
-                            <a class="dropdown-item" href="student_dashboard.aspx">Student Dashboard</a>
-                            <a class="dropdown-item" href="student_add.aspx">Add Student</a>
-                            <a class="dropdown-item" href="student_archive.aspx">Archive Student</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="student_dashboard.aspx">Student</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownU" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User
@@ -100,7 +84,7 @@
         <div class="push mb-2"></div>
     </div>
     <footer class="text-muted" style="background-color: #9D1A33;">
-        <div class="container-fluid pt-4">
+        <div class="container-fluid pt-4 pb-4">
             <p class="float-right">
                 <a href="#">Contact</a>
             </p>
@@ -110,9 +94,13 @@
             <p class="float-right mr-5">
                 <a href="#">Maps and Directions</a>
             </p>
-            <strong class="text-light">College of Public Health</strong>
+            <strong class="text-light h5">Temple University</strong>
             <br />
-            <strong class="text-light small">Temple University</strong>
+            <strong class="text-light h6">College of Public Health</strong>
+            <br />
+            <strong class="text-light small">3307 North Broad Street</strong>
+            <br />
+            <strong class="text-light small">Philadelphia, PA 19140</strong>
         </div>
     </footer>
     <script>
@@ -127,7 +115,20 @@
             document.getElementById("burger").style.visibility = "visible";
         }
     </script>
-    <script src="javascriptjs.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            // get current URL path and assign 'active' class
+            var pathname = window.location.pathname;
+            $('.navbar-nav > li > a[href="' + pathname + '"]').parent().addClass('active');
+        })
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://drvic10k.github.io/bootstrap-sortable/Scripts/bootstrap-sortable.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
