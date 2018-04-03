@@ -49,9 +49,8 @@
                         <td></td>
                         <td>
                             <select class="form-control">
-                                <option value="Program">Program</option>
-                                <option value="Family">Family</option>
-                                <option value="Practitioner">Practitioner</option>
+                                <option value="AGPC">Adult/Gerontology Primary Care (AGPC)</option>
+                                <option value="FIAL">Family/Individual Across the Lifespan (FIAL)</option>
                             </select>
                         </td>
                     </tr>
