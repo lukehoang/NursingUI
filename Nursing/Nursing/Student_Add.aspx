@@ -134,12 +134,12 @@
                 <div class="form-row mt-2">
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="student_dashboard.aspx" class="btn btn-info" id="Add">Add</a>
+                            <a href="student_dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="student_dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
+                            <a href="student_dashboard.aspx" class="btn btn-info" id="Add">Add</a>
                         </div>
                     </div>
                 </div>

@@ -78,12 +78,12 @@
                 <div class="form-row">
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="user_Dashboard.aspx" class="btn btn-info" id="Add">Add</a>
+                           <a href="user_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a> 
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                            <a href="user_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
+                            <a href="user_Dashboard.aspx" class="btn btn-info" id="Add">Add</a>
                         </div>
                     </div>
                 </div>
