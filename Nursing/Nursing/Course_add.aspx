@@ -57,6 +57,7 @@
                                     <a class="dropdown-item" href="#">Fall 2018</a>
                                 </div>
                             </div>
+                        </td>
                         <td class="text-right">Program: </td>
                         <td>
                             <div class="dropdown">

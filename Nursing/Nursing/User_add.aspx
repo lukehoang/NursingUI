@@ -73,12 +73,25 @@
                                 <input id="TXTPhone" type="text" class="form-control" />
                             </td>
                         </tr>
+                        <tr>
+                            <td class="text-left">User Type: </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="form-control dropdown-toggle text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Super Administrator</a>
+                                        <a class="dropdown-item" href="#">Administrator</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td></td><td></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div class="form-row">
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                           <a href="user_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a> 
+                            <a href="user_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
                         </div>
                     </div>
                     <div class="col-md-6">

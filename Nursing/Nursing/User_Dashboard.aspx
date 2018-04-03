@@ -81,7 +81,7 @@
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
                         <tr>
-                            <td>Bob </td>
+                            <td>Daniel</td>
                             <td>Robison</td>
                             <td>Violation Resolved</td>
                             <td>15 Sep, 7:12 AM</td>
