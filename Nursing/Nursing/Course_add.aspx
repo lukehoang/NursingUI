@@ -44,8 +44,15 @@
                     </tr>
                     <tr>
                         <td class="text-left">Term: </td>
-                        <td class="text-right">
-                            <input id="txtTerm" type="text" class="form-control" /></td>
+                        <td class="text-left">
+                            <div class="dropdown">
+                                    <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Spring 2018</a>
+                                        <a class="dropdown-item" href="#">Summer 2018</a>
+                                        <a class="dropdown-item" href="#">Fall 2018</a>
+                                    </div>
+                                </div>
                         <td></td>
                         <td>
                             <select class="form-control">
