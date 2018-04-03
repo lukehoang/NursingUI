@@ -50,19 +50,22 @@
                         <td class="text-left">Term: </td>
                         <td class="text-left">
                             <div class="dropdown">
-                                    <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Spring 2018</a>
-                                        <a class="dropdown-item" href="#">Summer 2018</a>
-                                        <a class="dropdown-item" href="#">Fall 2018</a>
-                                    </div>
+                                <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Spring 2018</a>
+                                    <a class="dropdown-item" href="#">Summer 2018</a>
+                                    <a class="dropdown-item" href="#">Fall 2018</a>
                                 </div>
-                        <td></td>
+                            </div>
+                            <td></td>
                         <td>
-                            <select class="form-control">
-                                <option value="AGPC">Adult/Gerontology Primary Care (AGPC)</option>
-                                <option value="FIAL">Family/Individual Across the Lifespan (FIAL)</option>
-                            </select>
+                            <div class="dropdown">
+                                <button class="form-control dropdown-toggle text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Program</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Adult/Gerontology Primary Care (AGPC)</a>
+                                    <a class="dropdown-item" href="#">Family/Individual Across the Lifespan (FIAL)</a>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                     <tr>
