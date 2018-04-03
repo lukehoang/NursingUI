@@ -65,6 +65,10 @@ footer{
     text-decoration: none;
     background-color:firebrick;
 }
+#nav-bar a {
+    font-size:20px;
+    font-weight: 600;
+}
 /*.active {
     background-color: #f58787;
     border-radius: 10px;
