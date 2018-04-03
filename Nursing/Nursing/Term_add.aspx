@@ -3,8 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
-  <%-- CONTENT --%>
+
+    <%-- CONTENT --%>
+    <div class="text-center">
+        <h3 id="heading">TERM</h3>
+    </div>
+    <div class="clearfix"></div>
     <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
         <div class="card">
@@ -22,7 +26,7 @@
     </div>
 
     <div class=" col-md-10 mx-auto mt-5">
-          <div class="card">
+        <div class="card">
             <div class="card-header">
                 <h5 class="m-0 card-title">Add Term</h5>
             </div>
@@ -33,7 +37,7 @@
                         <tr>
                             <td>Term</td>
                             <td>
-                                 <div class="dropdown">
+                                <div class="dropdown">
                                     <button class="form-control dropdown-toggle text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">Spring 2018</a>
@@ -74,5 +78,5 @@
             </div>
         </div>
     </div>
-         <div class="push mt-5"></div>
+    <div class="push mt-5"></div>
 </asp:Content>

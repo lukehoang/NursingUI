@@ -3,6 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="text-center">
+        <h3 id="heading">COURSE</h3>
+    </div>
+    <div class="clearfix"></div>
     <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
         <div class="card">
@@ -78,5 +82,7 @@
             </div>
         </div>
     </div>
-    <div class="push"></div><div class="push mt-5"></div>  <div class="push mt-5"></div>
+    <div class="push"></div>
+    <div class="push mt-5"></div>
+    <div class="push mt-5"></div>
 </asp:Content>
