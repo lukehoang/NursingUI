@@ -5,6 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <%-- CONTENT --%>
+    <div class="text-center">
+        <h3 id="heading">TERM</h3>
+    </div>
+    <div class="clearfix"></div>
     <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
         <div class="card">

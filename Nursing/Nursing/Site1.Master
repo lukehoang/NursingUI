@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <title>Boostrap Homework Capstone 1 Spring 2018</title>
+    <title>Department of Nursing</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -33,7 +33,7 @@
             </button>
 
             <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto" id="nav-bar">
                     <li class="nav-item">
                         <a class="nav-link" href="Dashboard.aspx">Dashboard</a>
                     </li>
@@ -83,6 +83,7 @@
         </asp:ContentPlaceHolder>
         <div class="push mb-2"></div>
     </div>
+  
     <footer class="text-muted" style="background-color: #9D1A33;">
         <div class="container-fluid pt-4 pb-4">
             <p class="float-right">
@@ -115,17 +116,23 @@
             document.getElementById("burger").style.visibility = "visible";
         }
     </script>
-
-
     <script>
-        $(document).ready(function () {
-            // get current URL path and assign 'active' class
-            var pathname = window.location.pathname;
-            $('.navbar-nav > li > a[href="' + pathname + '"]').parent().addClass('active');
-        })
+        var selector, elems, makeActive;
+
+        var selector = '.navbar-nav .nav-item';
+
+        elems = document.querySelectorAll(selector);
+
+        makeActive = function () {
+            for (var i = 0; i < elems.length; i++)
+                elems[i].classList.remove('active');
+
+            this.classList.add('active');
+        };
+
+        for (var i = 0; i < elems.length; i++)
+            elems[i].addEventListener('mousedown', makeActive);
     </script>
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://drvic10k.github.io/bootstrap-sortable/Scripts/bootstrap-sortable.js"></script>
 

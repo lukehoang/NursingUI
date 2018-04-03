@@ -3,7 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+     <div class="text-center">
+        <h3 id="heading">DASHBOARD</h3>
+    </div>
+    <div class="clearfix"></div>
     <%-- CONTENT --%>
     <div class=" col-md-2 float-left mt-5">
         <%-- DASHBOARD WINDOW --%>
