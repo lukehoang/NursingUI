@@ -38,7 +38,7 @@
                             <td>Term</td>
                             <td>
                                 <div class="dropdown">
-                                    <button class="form-control dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Courses</button>
+                                    <button class="form-control dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Term</button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">Spring 2018</a>
                                         <a class="dropdown-item" href="#">Summer 2018</a>
