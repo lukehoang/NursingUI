@@ -101,7 +101,7 @@
                                             </div>
                                         </div>
                                         <div class="card col-md-3">
-                                            <div class="bg-success card-header">
+                                            <div class="card-header">
                                                 <h6>Incompleted: </h6>
                                             </div>
                                             <div class="card-body">
@@ -109,7 +109,7 @@
                                             </div>
                                         </div>
                                         <div class="card col-md-3">
-                                            <div class="card-header bg-warning">
+                                            <div class="card-header">
                                                 <h6>Currently taking: </h6>
                                             </div>
                                             <div class="card-body">
@@ -117,7 +117,7 @@
                                             </div>
                                         </div>
                                         <div class="card col-md-3">
-                                            <div class="card-header bg-secondary">
+                                            <div class="card-header">
                                                 <h6>Needed: </h6>
                                             </div>
                                             <div class="card-body">
