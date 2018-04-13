@@ -74,19 +74,15 @@
                                 </div>
                                 <%-- NOTES --%>
                                 <div class="col-md-6 ">
-                                    <div class="card collapse">
-                                        <div class="card-header bg-secondary">
-                                            <h6>NOTES</h6>
-                                        </div>
-                                        <div class="card-body">
-                                            <h6 class="d-inline">Date: </h6>
-                                            <span>02/13/2018</span>
-                                            <p>Daniel updated David's email</p>
-                                            <hr />
-                                            <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                                            <a href="#" class="float-right btn btn-info">Add</a>
-                                        </div>
-                                    </div>
+                                    <h4>NOTES</h4>
+                                    <hr />
+                                    <h6 class="d-inline">Date: </h6>
+                                    <span>02/13/2018</span>
+                                    <p>Daniel updated David's email</p>
+                                    <hr />
+
+                                    <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
+                                    <a href="#" class="float-right btn btn-info">Add</a>
                                 </div>
                             </div>
                         </div>
