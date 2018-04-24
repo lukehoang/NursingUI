@@ -56,6 +56,7 @@
                             <th>TUid</th>
                             <th>Track</th>
                             <th>Course Taking</th>
+                            <th>Admission Date</th>
                             <th>Graduation</th>
                             <th></th>
                         </tr>
@@ -67,6 +68,7 @@
                             <td>827648918</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Spring 2016</td>
                             <td>Spring 2020</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -76,6 +78,7 @@
                             <td>948363849</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Spring 2015</td>
                             <td>Spring 2019</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -85,6 +88,7 @@
                             <td>9483638489</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Fall 2015</td>
                             <td>Fall 2019</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -94,6 +98,7 @@
                             <td>9471718411</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Spring 2015</td>
                             <td>Spring 2019</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -103,6 +108,7 @@
                             <td>9472763942</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Fall 2014</td>
                             <td>Fall 2018</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -112,6 +118,7 @@
                             <td>938910474</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Spring 2015</td>
                             <td>Spring 2019</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -121,6 +128,7 @@
                             <td>9386756920</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Fall 2015</td>
                             <td>Fall 2019</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -130,6 +138,7 @@
                             <td>746928648</td>
                             <td>FIAL</td>
                             <td>8004, 5101, 8473</td>
+                            <td>Spring 2016</td>
                             <td>Spring 2020</td>
                             <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
                         </tr>
@@ -178,7 +187,7 @@
                                     <h6 class="d-inline">Email: </h6>
                                     <span><a href="mailto:davidlam@mail.com" target="_top" class="text-info">davidlam@mail.com <i class="icon ion-android-mail"></i></a></span>
                                     <br />
-                                    <h6 class="d-inline">Registration date: </h6>
+                                    <h6 class="d-inline">Admission date: </h6>
                                     <span>09/12/2014</span>
                                     <br />
                                     <h6 class="d-inline">Expected Graduation: </h6>

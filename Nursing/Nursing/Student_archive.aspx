@@ -38,6 +38,15 @@
                     <div class="col-md-8">
                         <input type="text" class="form-control" id="TUid">
                     </div>
+                    <div class="col-md-12">
+                        <h4 class="text-center">or</h4>
+                    </div>
+                    <div class="col-md-2">
+                        <label>Student's name</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="StudentName">
+                    </div>
                     <div class="col-md-2">
                         <a href="#" class="btn btn-success" data-toggle="modal" data-target=".bd-student-modal-lg">Search</a>
                     </div>
@@ -73,7 +82,7 @@
                                     <h6 class="d-inline">Email: </h6>
                                     <span><a href="mailto:davidlam@mail.com" target="_top" class="text-info">davidlam@mail.com <i class="icon ion-android-mail"></i></a></span>
                                     <br />
-                                    <h6 class="d-inline">Registration date: </h6>
+                                    <h6 class="d-inline">Admission date: </h6>
                                     <span>09/12/2014</span>
                                     <br />
                                     <h6 class="d-inline">Expected Graduation: </h6>
