@@ -74,6 +74,7 @@
     <Content Include="main.css" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\NursingUI.pubxml" />
     <None Include="Properties\PublishProfiles\web.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
