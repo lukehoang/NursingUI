@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="Course_add.aspx" />
     <Content Include="Course_archive.aspx" />
+    <Content Include="Course_archive_box.aspx" />
     <Content Include="Course_dashboard.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="Login.aspx" />
@@ -84,14 +85,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Student_archive_box.aspx" />
     <Content Include="Student_Dashboard.aspx" />
     <Content Include="Student_Add.aspx" />
     <Content Include="Student_archive.aspx" />
     <Content Include="Term_add.aspx" />
     <Content Include="Term_archive.aspx" />
+    <Content Include="Term_archive_box.aspx" />
     <Content Include="Term_Dashboard.aspx" />
     <Content Include="User_add.aspx" />
     <Content Include="User_archive.aspx" />
+    <Content Include="User_archive_box.aspx" />
     <Content Include="User_Dashboard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,6 +113,13 @@
     </Compile>
     <Compile Include="Course_archive.aspx.designer.cs">
       <DependentUpon>Course_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Course_archive_box.aspx.cs">
+      <DependentUpon>Course_archive_box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Course_archive_box.aspx.designer.cs">
+      <DependentUpon>Course_archive_box.aspx</DependentUpon>
     </Compile>
     <Compile Include="Course_dashboard.aspx.cs">
       <DependentUpon>Course_dashboard.aspx</DependentUpon>
@@ -138,6 +149,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Student_archive_box.aspx.cs">
+      <DependentUpon>Student_archive_box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_archive_box.aspx.designer.cs">
+      <DependentUpon>Student_archive_box.aspx</DependentUpon>
     </Compile>
     <Compile Include="Student_Dashboard.aspx.cs">
       <DependentUpon>Student_Dashboard.aspx</DependentUpon>
@@ -174,6 +192,13 @@
     <Compile Include="Term_archive.aspx.designer.cs">
       <DependentUpon>Term_archive.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Term_archive_box.aspx.cs">
+      <DependentUpon>Term_archive_box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Term_archive_box.aspx.designer.cs">
+      <DependentUpon>Term_archive_box.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Term_Dashboard.aspx.cs">
       <DependentUpon>Term_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -194,6 +219,13 @@
     </Compile>
     <Compile Include="User_archive.aspx.designer.cs">
       <DependentUpon>User_archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_archive_box.aspx.cs">
+      <DependentUpon>User_archive_box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_archive_box.aspx.designer.cs">
+      <DependentUpon>User_archive_box.aspx</DependentUpon>
     </Compile>
     <Compile Include="User_Dashboard.aspx.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>

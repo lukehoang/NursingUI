@@ -18,7 +18,7 @@
                     <li><a href="course_dashboard.aspx">Course Dashboard</a></li>
                     <li><a href="course_add.aspx">Add Course</a></li>
                     <li><a href="course_archive.aspx">Archive Course</a></li>
-
+                    <li><a href="course_archive_box.aspx">Archive Box</a></li>
                 </ul>
             </div>
         </div>

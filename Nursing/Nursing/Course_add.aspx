@@ -18,7 +18,7 @@
                     <li><a href="course_dashboard.aspx">Course Dashboard</a></li>
                     <li><a href="course_add.aspx">Add Course</a></li>
                     <li><a href="course_archive.aspx">Archive Course</a></li>
-
+                    <li><a href="course_archive_box.aspx">Archive Box</a></li>
                 </ul>
             </div>
         </div>
@@ -81,7 +81,7 @@
                 <div class="form-row">
                     <div class="col-md-6">
                         <div class="col-md-3 m-auto">
-                           <a href="course_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a> 
+                            <a href="course_Dashboard.aspx" class="btn btn-warning" id="Cancel">Cancel</a>
                         </div>
                     </div>
                     <div class="col-md-6">

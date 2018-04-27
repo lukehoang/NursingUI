@@ -18,8 +18,9 @@
             <div class="card-body">
                 <ul class="navbar-nav">
                     <li><a href="term_dashboard.aspx">Term Dashboard</a></li>
-                    <li><a href="Term_add.aspx">Add Term</a></li>
+                    <li><a href="term_add.aspx">Add Term</a></li>
                     <li><a href="term_archive.aspx">Archive Term</a></li>
+                    <li><a href="term_archive_box.aspx">Archive Box</a></li>
                 </ul>
             </div>
         </div>
