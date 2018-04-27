@@ -17,9 +17,9 @@
             <div class="card-body">
                 <ul class="navbar-nav">
                     <li><a href="student_dashboard.aspx">Student Dashboard</a></li>
-                    <li><a href="Student_Add.aspx">Add Student</a></li>
-                    <li><a href="Student_archive.aspx">Archive Student</a></li>
-
+                    <li><a href="student_add.aspx">Add Student</a></li>
+                    <li><a href="student_archive.aspx">Archive Student</a></li>
+                    <li><a href="student_archive_box.aspx">Archive Box</a></li>
                 </ul>
             </div>
         </div>

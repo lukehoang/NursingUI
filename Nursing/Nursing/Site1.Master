@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://drvic10k.github.io/bootstrap-sortable/Contents/bootstrap-sortable.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse">
     <header>
@@ -34,25 +35,26 @@
 
             <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" id="nav-bar">
-                    <li class="nav-item">
+                    <li class="nav-item" id="dashboard">
                         <a class="nav-link" href="Dashboard.aspx">Dashboard</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="term">
                         <a class="nav-link" href="term_dashboard.aspx">Term</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="course">
                         <a class="nav-link" href="course_dashboard.aspx">Course</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="student">
                         <a class="nav-link" href="student_dashboard.aspx">Student</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" id="user">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownU" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownU">
                             <a class="dropdown-item" href="user_dashboard.aspx">User Dashboard</a>
                             <a class="dropdown-item" href="user_add.aspx">Add User</a>
                             <a class="dropdown-item" href="user_archive.aspx">Archive User</a>
+                            <a class="dropdown-item" href="user_archive_box.aspx">Archive Box</a>
                         </div>
                     </li>
                 </ul>
@@ -83,7 +85,7 @@
         </asp:ContentPlaceHolder>
         <div class="push mb-2"></div>
     </div>
-  
+
     <footer class="text-muted" style="background-color: #9D1A33;">
         <div class="container-fluid pt-4 pb-4">
             <p class="float-right">
@@ -116,27 +118,37 @@
             document.getElementById("burger").style.visibility = "visible";
         }
     </script>
-   <%-- <script>
-        var selector, elems, makeActive;
-
-        var selector = '.navbar-nav .nav-item';
-
-        elems = document.querySelectorAll(selector);
-
-        makeActive = function () {
-            for (var i = 0; i < elems.length; i++)
-                elems[i].classList.remove('active');
-
-            this.classList.add('active');
-        };
-
-        for (var i = 0; i < elems.length; i++)
-            elems[i].addEventListener('mousedown', makeActive);
-    </script>--%>
+    <script>
+        if (window.location.pathname == "/course_add.aspx" ||
+            window.location.pathname == "/course_archive.aspx" ||
+            window.location.pathname == "/course_archive_box.aspx" ||
+            window.location.pathname == "/course_dashboard.aspx") {
+            $("#course").addClass("active");
+        }
+        else if (window.location.pathname == "/student_add.aspx" ||
+            window.location.pathname == "/student_archive.aspx" ||
+            window.location.pathname == "/student_archive_box.aspx" ||
+            window.location.pathname == "/student_dashboard.aspx") {
+            $("#student").addClass("active");
+        }
+        else if (window.location.pathname == "/term_add.aspx" ||
+                 window.location.pathname == "/term_archive.aspx" ||
+                 window.location.pathname == "/term_archive_box.aspx" ||
+                 window.location.pathname == "/term_dashboard.aspx") {
+            $("#term").addClass("active");
+        }
+        else if (window.location.pathname == "/user_add.aspx" ||
+            window.location.pathname == "/user_archive.aspx" ||
+            window.location.pathname == "/user_archive_box.aspx" ||
+            window.location.pathname == "/user_dashboard.aspx") {
+            $("#user").addClass("active");
+        }
+        else if (window.location.pathname == "/Dashboard.aspx") {
+            $("#dashboard").addClass("active");
+        }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://drvic10k.github.io/bootstrap-sortable/Scripts/bootstrap-sortable.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>

@@ -17,9 +17,9 @@
             <div class="card-body">
                 <ul class="navbar-nav">
                     <li><a href="user_dashboard.aspx">User Dashboard</a></li>
-                    <li><a href="user_Add.aspx">Add User</a></li>
+                    <li><a href="user_add.aspx">Add User</a></li>
                     <li><a href="user_archive.aspx">Archive User</a></li>
-
+                    <li><a href="user_archive_box.aspx">Archive Box</a></li>
                 </ul>
             </div>
         </div>

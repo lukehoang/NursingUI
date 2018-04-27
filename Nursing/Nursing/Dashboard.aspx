@@ -16,12 +16,12 @@
             </div>
             <div class="card-body">
                 <ul class="navbar-nav">
-                    <li><a href="Term_add.aspx">Add Term</a></li>
+                    <li><a href="term_add.aspx">Add Term</a></li>
                     <li><a href="term_archive.aspx">Archive Term</a></li>
                     <li><a href="course_add.aspx">Add Course</a></li>
                     <li><a href="course_archive.aspx">Archive Course</a></li>
-                    <li><a href="Student_Add.aspx">Add Student</a></li>
-                    <li><a href="Student_archive.aspx">Archive Student</a></li>
+                    <li><a href="student_add.aspx">Add Student</a></li>
+                    <li><a href="student_archive.aspx">Archive Student</a></li>
 
                 </ul>
             </div>

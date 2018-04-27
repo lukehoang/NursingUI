@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Student_Dashboard.aspx.cs" Inherits="Nursing.StudentDahboard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Student_archive_box.aspx.cs" Inherits="Nursing.Student_archive_box" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -25,19 +25,6 @@
         </div>
     </div>
     <div class=" col-md-10 float-right mx-auto mt-5">
-        <%-- HIGHLIGHT WINDOW --%>
-        <div class="card">
-            <div class="card-header">
-                <h5 class="m-0 card-title">Alert</h5>
-            </div>
-            <div class="card-body">
-                <p>David: <span class="text-danger">Should be Taking NURS 8205 Organizational & Systems Leadership</span></p>
-                <p>Jim: <span class="text-danger">Should be Taking NURS 5101 Evidence - Based Practice for Advanced Practice </span></p>
-            </div>
-        </div>
-
-
-        <br class="mt-5" />
         <%-- MAIN WINDOW --%>
         <div class="card">
 
@@ -70,7 +57,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Spring 2016</td>
                             <td>Spring 2020</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Jim</td>
@@ -80,7 +67,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Spring 2015</td>
                             <td>Spring 2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Larry</td>
@@ -90,7 +77,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Fall 2015</td>
                             <td>Fall 2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Henry</td>
@@ -100,7 +87,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Spring 2015</td>
                             <td>Spring 2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Jeniffer</td>
@@ -110,7 +97,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Fall 2014</td>
                             <td>Fall 2018</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Wills</td>
@@ -120,7 +107,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Spring 2015</td>
                             <td>Spring 2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Nancy</td>
@@ -130,7 +117,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Fall 2015</td>
                             <td>Fall 2019</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Lora</td>
@@ -140,7 +127,7 @@
                             <td>8004, 5101, 8473</td>
                             <td>Spring 2016</td>
                             <td>Spring 2020</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -158,13 +145,13 @@
             </ul>
         </nav>
 
-        <%-- POP UP - WINDOWS --%>
+        <%-- POP UP WINDOW --%>
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="text-center d-inline">STUDENT'S PROFILE</h4>
+                            <h4 class="text-center d-inline">STUDENT'S INFORMATIONS</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <%-- CONTACT INFORMATIONS --%>
@@ -200,24 +187,7 @@
                                     <span>Enrolled</span>
                                     <br />
                                     <br />
-                                    <a href="#" class="btn btn-sm btn-info">UPDATE</a>
-                                </div>
-                                <%-- NOTES --%>
-                                <div class="col-md-6 ">
-                                    <h4>NOTES</h4>
-                                    <h6 class="d-inline">Date: </h6>
-                                    <span>12/01/2016</span>
-                                    <h6 class="d-inline">By: </h6>
-                                    <span>Dr. A</span>
-                                    <p>Should be taking 8004, 5101, 8473 in SP2018</p>
-                                    <hr />
-                                    <h6 class="d-inline">Date: </h6>
-                                    <span>04/12/2017</span>
-                                    <h6 class="d-inline">By: </h6>
-                                    <span>Dr. A</span>
-                                    <p>Failed 5501</p>
-                                    <textarea class="form-control" rows="3" placeholder="Add note"></textarea>
-                                    <a href="#" class="float-right btn btn-info mt-1">Add</a>
+                                    <a class="btn btn-warning" data-toggle="modal" data-target="#archiveModal">UNARCHIVE</a>
                                 </div>
                                 <%-- TABLE --%>
                                 <div class="col-md-12 mt-4">
@@ -260,6 +230,27 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%-- DIALOG YES NO --%>
+        <div class="modal fade" id="archiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Unarchive student</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Do you want to unarchive the student?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <a href="Student_archive_box.aspx" type="button" class="btn btn-warning">Unarchive</a>
                     </div>
                 </div>
             </div>

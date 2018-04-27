@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="User_Dashboard.aspx.cs" Inherits="Nursing.User_Dashboard" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="User_archive_box.aspx.cs" Inherits="Nursing.User_archive_box" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -25,37 +25,6 @@
         </div>
     </div>
     <div class=" col-md-10 float-right mx-auto mt-5 mb-5">
-        <%-- HIGHLIGHT WINDOW --%>
-        <div class="form-row mb-3">
-            <div class="card col-md-4">
-                <div class="card-header">
-                    <h5 class="m-0 card-title">Current Admins</h5>
-                </div>
-                <div class="card-body">
-                    <p>Super Admin: Dara</p>
-                    <p>Admin: Laura</p>
-                </div>
-            </div>
-            <div class="card col-md-4">
-                <div class="card-header">
-                    <h5 class="m-0 card-title">Number of Users</h5>
-                </div>
-                <div class="card-body">
-                    <h2 class="text-center">8</h2>
-                </div>
-            </div>
-
-            <div class="card col-md-4">
-                <div class="card-header">
-                    <h5 class="m-0 card-title">Current Actions</h5>
-                </div>
-                <div class="card-body">
-                    <p>Tom Commented on David (03/23/18)</p>
-                    <p>Daniel updated David's email (02/13/18)</p>
-                </div>
-            </div>
-        </div>
-
         <%-- MAIN TABLE --%>
         <div class="card">
             <div class="card-header">
@@ -67,55 +36,54 @@
                         <tr>
                             <th scope="col">First Name</th>
                             <th scope="col">Last Name</th>
-                            <th scope="col">Action</th>
+                            <th scope="col">Status</th>
                             <th scope="col">Date</th>
-                            <td></td>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Jennifer</td>
                             <td>Pinsker</td>
-                            <td>Profile Updated</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 8:56 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Daniel</td>
                             <td>Robison</td>
-                            <td>Violation Resolved</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 7:12 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Michael</td>
                             <td>Robson</td>
-                            <td>Suspect Resolved</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 4:34 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Jennifer</td>
                             <td>Pinsker</td>
-                            <td>Profile Violation Detected</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 2:08 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>John </td>
                             <td>Boo</td>
-                            <td>Profile Updated</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 8:56 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
                         <tr>
                             <td>Michael</td>
                             <td>Robinson</td>
-                            <td>User Blocked</td>
+                            <td>Inactive</td>
                             <td>15 Sep, 7:12 AM</td>
-                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Details</a></td>
+                            <td><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg" class="btn btn-outline-info btn-sm">Unarchive</a></td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -151,13 +119,12 @@
                                 <span>216746817</span>
                                 <br />
                                 <h6 class="d-inline">Email: </h6>
-                                <span><a href="mailto:davidlam@mail.com" target="_top" class="text-info">Daniel@mail.com <i class="icon ion-android-mail"></i></a></span>
+                                <span><a href="mailto:davidlam@mail.com" target="_top" class="text-info">davidlam@mail.com <i class="icon ion-android-mail"></i></a></span>
                                 <br />
                                 <h6 class="d-inline">Phone number: </h6>
                                 <span>216 746 5817</span>
                                 <br />
-
-                                <a href="#" class="btn btn-sm btn-info">UPDATE</a>
+                                <a class="btn btn-warning btn-sm" data-toggle="modal" data-target="#archiveModal">UNARCHIVE</a>
                             </div>
                             <%-- NOTES --%>
                             <div class="col-md-6 ">
@@ -177,4 +144,27 @@
             </div>
         </div>
     </div>
+
+    <%-- DIALOG YES NO --%>
+    <div class="modal fade" id="archiveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Unarchive user</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Do you want to unarchive the user?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a href="user_archive_box.aspx" type="button" class="btn btn-warning">Unarchive</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="push mt-5 mb-5"></div>
+    <div class="push mt-5 mb-5"></div>
 </asp:Content>
